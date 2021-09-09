@@ -12,10 +12,10 @@
     </figure>
     <h1>PEÍCULAS ORDENADAS POR POSICIÓN</h1>
     <ul>
-        <% for( let i = 0; i < movies.length; i++ ) { %>
+        <% for( let i = 0; i < peliculas.length; i++ ) { %>
         <li>
-            <a href="/movies/detail/<%=movies[i].id%>"><%= movies[i].title %> </a> <br>
-            <%= 'RATING: ' + movies[i].rating %> 
+            <a href="/movies/detail/<%=peliculas[i].id%>"><%= peliculas[i].title %> </a> <br>
+            <%= 'RATING: ' + peliculas[i].rating %> 
         </li>
         <% } %>
         
